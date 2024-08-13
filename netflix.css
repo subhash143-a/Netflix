@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+   font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bodyimage.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+
+}
+.logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+    
+}  
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    background-color: #db0001;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+
+    cursor: pointer;
+    padding: 7px 20px;
+
+}
+.E-btn{
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+
+    cursor: pointer;
+    padding: 7px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.fa-solid{
+    margin-left: 10px;
+}
+.headercontent{
+    text-align: center;
+    margin-top: 200px;
+}
+.headercontent h1{
+    font-size: 3rem;
+        font-weight: 900;
+}
+.headercontent h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.headercontent p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1rem;
+
+}
+.email{
+width: 30%;
+height: 60px;
+margin-top: 1rem;
+padding-left: 20px;
+background-color: transparent;
+border: 1px solid white;
+border-radius: 5px;
+color: #fff;
+}
+.get{
+    height: 63px;
+    width: 15%;
+    background-color: #db0001;
+    border-radius: 5px;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    border-top: 6px solid #333;
+    
+
+
+}
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    
+  
+
+}
+.text-col{
+    flex-basis: 50%;
+    padding-top: 80px;
+}
+.image{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+ h3{
+    margin-top: 20px;
+    font-size: 1.5rem;
+        font-weight: 400;
+    
+
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    border-top: 6px solid #333;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+
+
+
+
+.para{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.footer .col{
+      flex-basis: 25%;
+      flex-grow: 1;
+      margin-bottom: 20;
+}
+.footer .col a{
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.example{
+    border-top: 6px solid #333;  
+}
+.example h3{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
